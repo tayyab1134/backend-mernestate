@@ -14,7 +14,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: ['https://mernestate610.netlify.app', 'http://localhost:5173'],
+  origin: ['https://mern-estate-azure.vercel.app','https://mernestate610.netlify.app', 'http://localhost:5173'],
   credentials: true
 }));
 
